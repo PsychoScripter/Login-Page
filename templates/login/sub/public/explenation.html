@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page with Tailwind</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+</head>
+<body>
+  <main class="bg-gray-950 min-h-screen flex items-center justify-center p-8 md:p-0" dir="rtl">
+    <div class="bg-slate-900 shadow-lg flex flex-col items-center rounded-xl overflow-hidden lg:flex-row lg:w-2/3 2xl:w-1/2">
+
+      <!-- form -->
+      <div class="p-8 lg:w-1/2 sm:p-8">
+        <h1 class="font-bold text-gray-400 text-3xl md:text-4xl md:mb-16">ساب ساز </h1>
+
+        <h2 class="text-2xl font-semibold mt-8 mb-6 text-gray-300">ورود</h2>
+
+        <form action="" class="flex flex-col">
+          <div id="input-field" class="flex flex-col mb-4 relative">
+            <i class="fi fi-rr-envelope absolute top-11 left-5 text-zinc-400"></i>
+            <label for="email" class="mb-2 text-gray-700">ایمیل</label>
+            <input type="email" name="" id="email" placeholder="youremail@gmail.com" class="px-4 py-2 border-2 border-gray-500 bg-gray-600 rounded-md max-w-full focus:border-blue-500 focus:outline-none">
+          </div>
+
+          <div id="input-field" class="flex flex-col relative">
+            <i class="fi fi-rr-lock absolute top-11 left-5 text-zinc-400"></i>
+            <label for="Password" class="mb-2 text-gray-700">پسورد</label>
+            <input type="password" name="" id="password" placeholder="رمز" class="px-4 py-2 border-2 border-gray-500 bg-gray-600 rounded-md max-w-full focus:outline-none focus:border-blue-500">
+          </div>
+
+          <button class="my-6 bg-blue-800 hover:bg-blue-700 text-white font-medium text-lg px-4 py-2 rounded-md" >ورود</button>
+        </form>
+
+        <p class="text-gray-500">ایجاد حساب کاربری <a href="#" class="text-blue-500 font-semibold underline">ثبت‌نام</a></p>
+
+      </div>
+
+      <!-- image -->
+      <div class="w-1/2">
+        <img src="/public/img/cloudal.jpg" alt="" class="h-f lg:block hidden">
+
+      </div>
+
+
+
+      </div>
+    </div>
+  </main>
+  
+</body>
+</html>
